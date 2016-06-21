@@ -1,0 +1,1126 @@
+{
+  "ID": "276b4f3d-402f-44f9-bd48-2ba43941ec09",
+  "Version": "2.3.3.0",
+  "Name": "Layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 34,
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.505,
+              "ScaleY": 0.439
+            },
+            "Position": {
+              "X": 50.496,
+              "Y": 583.8951
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0526,
+              "Y": 0.9123
+            },
+            "PreSize": {
+              "X": 0.1042,
+              "Y": 0.1562
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "TopEdge",
+            "RightMargin": 860.0,
+            "TopMargin": -0.0001,
+            "BottomMargin": 540.0001,
+            "Tag": 35,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "女友",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.885,
+                  "Y": 45.7956
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5088,
+                  "Y": 0.458
+                },
+                "PreSize": {
+                  "X": 0.4,
+                  "Y": 0.23
+                },
+                "LeftMargin": 30.885,
+                "RightMargin": 29.115,
+                "TopMargin": 42.7044,
+                "BottomMargin": 34.2956,
+                "Tag": 36,
+                "ActionTag": 358184193,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_gf",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -740739556,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "Panel_gf",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4807,
+              "ScaleY": 0.4605
+            },
+            "Position": {
+              "X": 48.0678,
+              "Y": 46.0499
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0501,
+              "Y": 0.072
+            },
+            "PreSize": {
+              "X": 0.1042,
+              "Y": 0.1562
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "BottomEdge",
+            "RightMargin": 860.0,
+            "TopMargin": 540.0,
+            "Tag": 37,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "花点",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.885,
+                  "Y": 45.7956
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5088,
+                  "Y": 0.458
+                },
+                "PreSize": {
+                  "X": 0.4,
+                  "Y": 0.23
+                },
+                "LeftMargin": 30.885,
+                "RightMargin": 29.115,
+                "TopMargin": 42.7044,
+                "BottomMargin": 34.2956,
+                "Tag": 38,
+                "ActionTag": 683131766,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_shop",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -220352706,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "Panel_shop",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4765,
+              "ScaleY": 0.4848
+            },
+            "Position": {
+              "X": 907.6487,
+              "Y": 48.4781
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9455,
+              "Y": 0.0757
+            },
+            "PreSize": {
+              "X": 0.1042,
+              "Y": 0.1562
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": 860.0015,
+            "RightMargin": -0.0015,
+            "TopMargin": 540.0,
+            "BottomMargin": 0.0,
+            "Tag": 39,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "操场",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.885,
+                  "Y": 45.7956
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5088,
+                  "Y": 0.458
+                },
+                "PreSize": {
+                  "X": 0.4,
+                  "Y": 0.23
+                },
+                "LeftMargin": 30.885,
+                "RightMargin": 29.115,
+                "TopMargin": 42.7044,
+                "BottomMargin": 34.2956,
+                "Tag": 40,
+                "ActionTag": 1098326768,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_play",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 661710111,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "Panel_play",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5008,
+              "ScaleY": 0.4632
+            },
+            "Position": {
+              "X": 910.0781,
+              "Y": 586.3233
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.948,
+              "Y": 0.9161
+            },
+            "PreSize": {
+              "X": 0.1042,
+              "Y": 0.1562
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 860.0013,
+            "RightMargin": -0.0013,
+            "TopMargin": -0.0001,
+            "BottomMargin": 540.0001,
+            "Tag": 41,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "家",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.885,
+                  "Y": 45.7956
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5088,
+                  "Y": 0.458
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.23
+                },
+                "LeftMargin": 40.885,
+                "RightMargin": 39.115,
+                "TopMargin": 42.7044,
+                "BottomMargin": 34.2956,
+                "Tag": 42,
+                "ActionTag": 338997476,
+                "Size": {
+                  "X": 20.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_home",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -797087398,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "Panel_home",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "NormalBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Normal.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Press.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Disable.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Normal.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Disable.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 206.4298,
+              "Y": 511.8147
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.215,
+              "Y": 0.7997
+            },
+            "PreSize": {
+              "X": 0.0417,
+              "Y": 0.0625
+            },
+            "LeftMargin": 186.4298,
+            "RightMargin": 733.5702,
+            "TopMargin": 108.1853,
+            "BottomMargin": 491.8147,
+            "CallBackType": "Event",
+            "CallBackName": "onChangeEvent",
+            "Tag": 43,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "自己带钱了",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.6121
+                },
+                "Position": {
+                  "X": 48.7486,
+                  "Y": 21.9102
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.2187,
+                  "Y": 0.5478
+                },
+                "PreSize": {
+                  "X": 2.5,
+                  "Y": 0.575
+                },
+                "LeftMargin": 48.7486,
+                "RightMargin": -108.7486,
+                "TopMargin": 9.1681,
+                "BottomMargin": 7.8319,
+                "Tag": 44,
+                "ActionTag": 1119934238,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1145578596,
+            "Size": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Name": "CheckBox_1",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "NormalBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Normal.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Press.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Disable.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Normal.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Disable.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 206.4298,
+              "Y": 461.9404
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.215,
+              "Y": 0.7218
+            },
+            "PreSize": {
+              "X": 0.0417,
+              "Y": 0.0625
+            },
+            "LeftMargin": 186.4298,
+            "RightMargin": 733.5702,
+            "TopMargin": 158.0596,
+            "BottomMargin": 441.9404,
+            "CallBackType": "Event",
+            "CallBackName": "onChangeEvent",
+            "Tag": 45,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "自己有花了",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.6121
+                },
+                "Position": {
+                  "X": 48.7486,
+                  "Y": 21.9102
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.2187,
+                  "Y": 0.5478
+                },
+                "PreSize": {
+                  "X": 2.5,
+                  "Y": 0.575
+                },
+                "LeftMargin": 48.7486,
+                "RightMargin": -108.7486,
+                "TopMargin": 9.1681,
+                "BottomMargin": 7.8319,
+                "Tag": 46,
+                "ActionTag": -2046111078,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1760845303,
+            "Size": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Name": "CheckBox_1_0",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "CheckedState": true,
+            "NormalBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Normal.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Press.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Disable.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Normal.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Disable.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 206.4298,
+              "Y": 407.5663
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.215,
+              "Y": 0.6368
+            },
+            "PreSize": {
+              "X": 0.0417,
+              "Y": 0.0625
+            },
+            "LeftMargin": 186.4298,
+            "RightMargin": 733.5702,
+            "TopMargin": 212.4337,
+            "BottomMargin": 387.5663,
+            "CallBackType": "Event",
+            "CallBackName": "onChangeEvent",
+            "Tag": 47,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "女友还在",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.6121
+                },
+                "Position": {
+                  "X": 48.7486,
+                  "Y": 21.9102
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.2187,
+                  "Y": 0.5478
+                },
+                "PreSize": {
+                  "X": 2.0,
+                  "Y": 0.575
+                },
+                "LeftMargin": 48.7486,
+                "RightMargin": -88.7486,
+                "TopMargin": 9.1681,
+                "BottomMargin": 7.8319,
+                "Tag": 48,
+                "ActionTag": -1613642772,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 138055002,
+            "Size": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Name": "CheckBox_1_1",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "NormalBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Normal.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Press.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Disable.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Normal.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Disable.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 206.4298,
+              "Y": 353.1922
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.215,
+              "Y": 0.5519
+            },
+            "PreSize": {
+              "X": 0.0417,
+              "Y": 0.0625
+            },
+            "LeftMargin": 186.4298,
+            "RightMargin": 733.5702,
+            "TopMargin": 266.8078,
+            "BottomMargin": 333.1922,
+            "CallBackType": "Event",
+            "CallBackName": "onChangeEvent",
+            "Tag": 49,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "女友有花了",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.6121
+                },
+                "Position": {
+                  "X": 48.7486,
+                  "Y": 21.9102
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.2187,
+                  "Y": 0.5478
+                },
+                "PreSize": {
+                  "X": 2.5,
+                  "Y": 0.575
+                },
+                "LeftMargin": 48.7486,
+                "RightMargin": -108.7486,
+                "TopMargin": 9.1681,
+                "BottomMargin": 7.8319,
+                "Tag": 50,
+                "ActionTag": 290964430,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -768448539,
+            "Size": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Name": "CheckBox_1_2",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "CheckedState": true,
+            "NormalBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Normal.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Press.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Disable.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Normal.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Disable.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 206.4298,
+              "Y": 300.0264
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.215,
+              "Y": 0.4688
+            },
+            "PreSize": {
+              "X": 0.0417,
+              "Y": 0.0625
+            },
+            "LeftMargin": 186.4298,
+            "RightMargin": 733.5702,
+            "TopMargin": 319.9736,
+            "BottomMargin": 280.0264,
+            "CallBackType": "Event",
+            "CallBackName": "onChangeEvent",
+            "Tag": 51,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "是情人节",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.6121
+                },
+                "Position": {
+                  "X": 48.7486,
+                  "Y": 21.9102
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.2187,
+                  "Y": 0.5478
+                },
+                "PreSize": {
+                  "X": 2.0,
+                  "Y": 0.575
+                },
+                "LeftMargin": 48.7486,
+                "RightMargin": -88.7486,
+                "TopMargin": 9.1681,
+                "BottomMargin": 7.8319,
+                "Tag": 52,
+                "ActionTag": 1728287723,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1919976501,
+            "Size": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Name": "CheckBox_1_3",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.8167
+            },
+            "Position": {
+              "X": 400.8032,
+              "Y": 533.7125
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4175,
+              "Y": 0.8339
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 400.8032,
+            "RightMargin": 559.1968,
+            "TopMargin": 106.2875,
+            "BottomMargin": 533.7125,
+            "Tag": 53,
+            "ActionTag": -1962315394,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Text_des",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "我是AI",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 419.5919,
+              "Y": 276.3239
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4371,
+              "Y": 0.4318
+            },
+            "PreSize": {
+              "X": 0.0604,
+              "Y": 0.0359
+            },
+            "LeftMargin": 390.5919,
+            "RightMargin": 511.4081,
+            "TopMargin": 352.1761,
+            "BottomMargin": 264.8239,
+            "Tag": 54,
+            "ActionTag": -925156577,
+            "Size": {
+              "X": 58.0,
+              "Y": 23.0
+            },
+            "Name": "Text_11",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/CheckBox_Disable.png",
+        "Default/CheckBox_Normal.png",
+        "Default/CheckBox_Press.png",
+        "Default/CheckBoxNode_Disable.png",
+        "Default/CheckBoxNode_Normal.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
