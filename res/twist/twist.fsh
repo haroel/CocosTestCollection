@@ -9,6 +9,8 @@ varying vec4 v_fragmentColor;
 varying vec2 v_texCoord;
 #endif
 
+#define PI 3.14159265
+
 varying float v_start;
 varying float v_end;
 
@@ -29,7 +31,7 @@ void main()
     else
     {
         float angle = (yfrac - v_start) / (v_end - v_start);
-        float _width = cos(angle * 3.1416);
+        float _width = cos(angle * PI);
         
         if (_width > 0.0)
         {

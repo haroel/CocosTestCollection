@@ -1,27 +1,19 @@
 //
-//  TwistNode.hpp
-//  MyGameCpp
+//  ProgressAction.hpp
+//  MyTestCollection
 //
-//  Created by howe on 15/8/25.
+//  Created by Howe on 16/6/22.
 //
 //
 
-#ifndef TwistNode_hpp
-#define TwistNode_hpp
+#ifndef ProgressAction_hpp
+#define ProgressAction_hpp
 
 #include <stdio.h>
+
 #include "cocos2d.h"
 using namespace cocos2d;
 
-class TwistNode : public Sprite
-{
-public:
-    CREATE_FUNC(TwistNode);
-    
-    virtual void onEnter();
-    
-    void _callHandler(float t);
-};
 
 class ProgressAction : public cocos2d::ActionInterval
 {
@@ -52,4 +44,5 @@ public:
     
 };
 
-#endif /* TwistNode_hpp */
+
+#endif /* ProgressAction_hpp */

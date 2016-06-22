@@ -7,40 +7,38 @@
 //
 
 #include "TwistNode.h"
+#include "ProgressAction.hpp"
+
 using namespace cocos2d;
 
-float width = 200;
-float height = 100;
 
-void TwistNode::onEnter()
+void TwistNode::setTexture(const std::string &path1,const std::string &path2,float duration)
 {
-    Sprite::onEnter();
+    this->initWithFile(path1);
     
     
-    this->initWithFile("res/twist/a1.jpg");
-    
-    
-    auto texture = Director::getInstance()->getTextureCache()->addImage("res/twist/a2.jpg");
+    auto texture = Director::getInstance()->getTextureCache()->addImage(path2);
     
     auto fragStr = FileUtils::getInstance()->getStringFromFile("res/twist/twist.fsh");
     auto vertStr = FileUtils::getInstance()->getStringFromFile("res/twist/twist.vert");
-
+    
     auto pstate = GLProgramState::create( GLProgram::createWithByteArrays(vertStr.c_str(), fragStr.c_str()) );
-    pstate->setUniformTexture("u_textureTo", texture);    
+    pstate->setUniformTexture("u_textureTo", texture);
     pstate->setUniformFloat("u_progress", 0);
-
+    
     this->setGLProgramState(pstate);
     
     auto act = new ProgressAction();
-    act->initWithDuration(1.5);
+    act->initWithDuration(duration);
     
     act->callBack = std::bind(&TwistNode::_callHandler, this,std::placeholders::_1);
     this->runAction(act);
-    
+
 }
+
 void TwistNode::_callHandler(float t)
 {
-    CCLOG("progress %f",t);
+//    CCLOG("progress %f",t);
     auto pstate = this->getGLProgramState();
     pstate->setUniformFloat("u_progress", t);
 }

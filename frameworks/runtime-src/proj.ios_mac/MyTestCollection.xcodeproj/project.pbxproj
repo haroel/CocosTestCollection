@@ -51,20 +51,22 @@
 		9C53FC941C33DB6800265657 /* PolygonSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FC871C33DB6800265657 /* PolygonSprite.cpp */; };
 		9C53FC971C33DB6800265657 /* SwipItemView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FC8B1C33DB6800265657 /* SwipItemView.cpp */; };
 		9C53FC981C33DB6800265657 /* SwipItemView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FC8B1C33DB6800265657 /* SwipItemView.cpp */; };
-		9C53FC9B1C33DB6800265657 /* TwistNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FC8F1C33DB6800265657 /* TwistNode.cpp */; };
-		9C53FC9C1C33DB6800265657 /* TwistNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FC8F1C33DB6800265657 /* TwistNode.cpp */; };
 		9C53FC9D1C33DB6800265657 /* UINumberPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FC911C33DB6800265657 /* UINumberPicker.cpp */; };
 		9C53FC9E1C33DB6800265657 /* UINumberPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FC911C33DB6800265657 /* UINumberPicker.cpp */; };
 		9C53FCA11C33DB7D00265657 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FC9F1C33DB7D00265657 /* MainScene.cpp */; };
 		9C53FCA21C33DB7D00265657 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FC9F1C33DB7D00265657 /* MainScene.cpp */; };
-		9C53FCAB1C33F9C400265657 /* GLVBOTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FCA91C33F9C400265657 /* GLVBOTest.cpp */; };
-		9C53FCAC1C33F9C400265657 /* GLVBOTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FCA91C33F9C400265657 /* GLVBOTest.cpp */; };
 		9C53FCAF1C33FBD000265657 /* CppTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FCAD1C33FBD000265657 /* CppTestLayer.cpp */; };
 		9C53FCB01C33FBD000265657 /* CppTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FCAD1C33FBD000265657 /* CppTestLayer.cpp */; };
-		9C53FCB31C34226500265657 /* ShaderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FCB11C34226500265657 /* ShaderTest.cpp */; };
-		9C53FCB41C34226500265657 /* ShaderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FCB11C34226500265657 /* ShaderTest.cpp */; };
 		9C6F43431C3816C800751433 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F43411C3816C800751433 /* Util.cpp */; };
 		9C6F43441C3816C800751433 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F43411C3816C800751433 /* Util.cpp */; };
+		9CE29A131D1ACC7A00B8D27F /* GLVBOTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A0D1D1ACC7A00B8D27F /* GLVBOTest.cpp */; };
+		9CE29A141D1ACC7A00B8D27F /* GLVBOTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A0D1D1ACC7A00B8D27F /* GLVBOTest.cpp */; };
+		9CE29A151D1ACC7A00B8D27F /* ShaderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A0F1D1ACC7A00B8D27F /* ShaderTest.cpp */; };
+		9CE29A161D1ACC7A00B8D27F /* ShaderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A0F1D1ACC7A00B8D27F /* ShaderTest.cpp */; };
+		9CE29A171D1ACC7A00B8D27F /* TwistNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A111D1ACC7A00B8D27F /* TwistNode.cpp */; };
+		9CE29A181D1ACC7A00B8D27F /* TwistNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A111D1ACC7A00B8D27F /* TwistNode.cpp */; };
+		9CE29A1B1D1AD31500B8D27F /* MProgressTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A191D1AD31500B8D27F /* MProgressTimer.cpp */; };
+		9CE29A1C1D1AD31500B8D27F /* MProgressTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A191D1AD31500B8D27F /* MProgressTimer.cpp */; };
 		9FA3AE461BE9BBCA00FC9645 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA3AE451BE9BBCA00FC9645 /* GameController.framework */; };
 		A92275421517C094001B78AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92275411517C094001B78AA /* QuartzCore.framework */; };
 		A92275441517C094001B78AA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92275431517C094001B78AA /* OpenGLES.framework */; };
@@ -193,20 +195,23 @@
 		9C53FC881C33DB6800265657 /* PolygonSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonSprite.h; sourceTree = "<group>"; };
 		9C53FC8B1C33DB6800265657 /* SwipItemView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwipItemView.cpp; sourceTree = "<group>"; };
 		9C53FC8C1C33DB6800265657 /* SwipItemView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SwipItemView.hpp; sourceTree = "<group>"; };
-		9C53FC8F1C33DB6800265657 /* TwistNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwistNode.cpp; sourceTree = "<group>"; };
-		9C53FC901C33DB6800265657 /* TwistNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwistNode.h; sourceTree = "<group>"; };
 		9C53FC911C33DB6800265657 /* UINumberPicker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UINumberPicker.cpp; sourceTree = "<group>"; };
 		9C53FC921C33DB6800265657 /* UINumberPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINumberPicker.h; sourceTree = "<group>"; };
 		9C53FC9F1C33DB7D00265657 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
 		9C53FCA01C33DB7D00265657 /* MainScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainScene.hpp; sourceTree = "<group>"; };
-		9C53FCA91C33F9C400265657 /* GLVBOTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLVBOTest.cpp; sourceTree = "<group>"; };
-		9C53FCAA1C33F9C400265657 /* GLVBOTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GLVBOTest.hpp; sourceTree = "<group>"; };
 		9C53FCAD1C33FBD000265657 /* CppTestLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppTestLayer.cpp; sourceTree = "<group>"; };
 		9C53FCAE1C33FBD000265657 /* CppTestLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CppTestLayer.hpp; sourceTree = "<group>"; };
-		9C53FCB11C34226500265657 /* ShaderTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderTest.cpp; sourceTree = "<group>"; };
-		9C53FCB21C34226500265657 /* ShaderTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShaderTest.hpp; sourceTree = "<group>"; };
 		9C6F43411C3816C800751433 /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
 		9C6F43421C3816C800751433 /* Util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Util.hpp; sourceTree = "<group>"; };
+		9CE29A081D1ACBAA00B8D27F /* ProgressAction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProgressAction.hpp; sourceTree = "<group>"; };
+		9CE29A0D1D1ACC7A00B8D27F /* GLVBOTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLVBOTest.cpp; sourceTree = "<group>"; };
+		9CE29A0E1D1ACC7A00B8D27F /* GLVBOTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GLVBOTest.hpp; sourceTree = "<group>"; };
+		9CE29A0F1D1ACC7A00B8D27F /* ShaderTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderTest.cpp; sourceTree = "<group>"; };
+		9CE29A101D1ACC7A00B8D27F /* ShaderTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShaderTest.hpp; sourceTree = "<group>"; };
+		9CE29A111D1ACC7A00B8D27F /* TwistNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwistNode.cpp; sourceTree = "<group>"; };
+		9CE29A121D1ACC7A00B8D27F /* TwistNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwistNode.h; sourceTree = "<group>"; };
+		9CE29A191D1AD31500B8D27F /* MProgressTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MProgressTimer.cpp; sourceTree = "<group>"; };
+		9CE29A1A1D1AD31500B8D27F /* MProgressTimer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MProgressTimer.hpp; sourceTree = "<group>"; };
 		9FA3AE451BE9BBCA00FC9645 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		A922753D1517C094001B78AA /* MyTestCollection-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyTestCollection-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92275411517C094001B78AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -338,24 +343,35 @@
 		9C53FC861C33DB6800265657 /* mc */ = {
 			isa = PBXGroup;
 			children = (
+				9CE29A0C1D1ACC7A00B8D27F /* gl */,
+				9C53FCAD1C33FBD000265657 /* CppTestLayer.cpp */,
 				9C53FC871C33DB6800265657 /* PolygonSprite.cpp */,
 				9C53FC881C33DB6800265657 /* PolygonSprite.h */,
 				9C53FC8B1C33DB6800265657 /* SwipItemView.cpp */,
 				9C53FC8C1C33DB6800265657 /* SwipItemView.hpp */,
-				9C53FC8F1C33DB6800265657 /* TwistNode.cpp */,
-				9C53FC901C33DB6800265657 /* TwistNode.h */,
 				9C53FC911C33DB6800265657 /* UINumberPicker.cpp */,
 				9C53FC921C33DB6800265657 /* UINumberPicker.h */,
-				9C53FCAD1C33FBD000265657 /* CppTestLayer.cpp */,
 				9C53FCAE1C33FBD000265657 /* CppTestLayer.hpp */,
-				9C53FCA91C33F9C400265657 /* GLVBOTest.cpp */,
-				9C53FCAA1C33F9C400265657 /* GLVBOTest.hpp */,
-				9C53FCB11C34226500265657 /* ShaderTest.cpp */,
-				9C53FCB21C34226500265657 /* ShaderTest.hpp */,
 				9C6F43411C3816C800751433 /* Util.cpp */,
 				9C6F43421C3816C800751433 /* Util.hpp */,
+				9CE29A081D1ACBAA00B8D27F /* ProgressAction.hpp */,
 			);
 			path = mc;
+			sourceTree = "<group>";
+		};
+		9CE29A0C1D1ACC7A00B8D27F /* gl */ = {
+			isa = PBXGroup;
+			children = (
+				9CE29A0D1D1ACC7A00B8D27F /* GLVBOTest.cpp */,
+				9CE29A0E1D1ACC7A00B8D27F /* GLVBOTest.hpp */,
+				9CE29A0F1D1ACC7A00B8D27F /* ShaderTest.cpp */,
+				9CE29A101D1ACC7A00B8D27F /* ShaderTest.hpp */,
+				9CE29A111D1ACC7A00B8D27F /* TwistNode.cpp */,
+				9CE29A121D1ACC7A00B8D27F /* TwistNode.h */,
+				9CE29A191D1AD31500B8D27F /* MProgressTimer.cpp */,
+				9CE29A1A1D1AD31500B8D27F /* MProgressTimer.hpp */,
+			);
+			path = gl;
 			sourceTree = "<group>";
 		};
 		A92275321517C094001B78AA = {
@@ -613,16 +629,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C53FCAC1C33F9C400265657 /* GLVBOTest.cpp in Sources */,
+				9CE29A141D1ACC7A00B8D27F /* GLVBOTest.cpp in Sources */,
 				9C53FC9E1C33DB6800265657 /* UINumberPicker.cpp in Sources */,
 				9C53FCB01C33FBD000265657 /* CppTestLayer.cpp in Sources */,
+				9CE29A181D1ACC7A00B8D27F /* TwistNode.cpp in Sources */,
 				509D4A8117EBB24E00697056 /* AppDelegate.cpp in Sources */,
-				9C53FC9C1C33DB6800265657 /* TwistNode.cpp in Sources */,
 				9C53FCA21C33DB7D00265657 /* MainScene.cpp in Sources */,
+				9CE29A1C1D1AD31500B8D27F /* MProgressTimer.cpp in Sources */,
 				9C6F43441C3816C800751433 /* Util.cpp in Sources */,
 				C06E23CC18CEFE680093C81A /* main.cpp in Sources */,
 				9C53FC981C33DB6800265657 /* SwipItemView.cpp in Sources */,
-				9C53FCB41C34226500265657 /* ShaderTest.cpp in Sources */,
+				9CE29A161D1ACC7A00B8D27F /* ShaderTest.cpp in Sources */,
 				9C53FC941C33DB6800265657 /* PolygonSprite.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -631,18 +648,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CE29A131D1ACC7A00B8D27F /* GLVBOTest.cpp in Sources */,
+				9CE29A171D1ACC7A00B8D27F /* TwistNode.cpp in Sources */,
 				9C53FCA11C33DB7D00265657 /* MainScene.cpp in Sources */,
 				9C53FC971C33DB6800265657 /* SwipItemView.cpp in Sources */,
 				9C53FCAF1C33FBD000265657 /* CppTestLayer.cpp in Sources */,
 				9C6F43431C3816C800751433 /* Util.cpp in Sources */,
+				9CE29A1B1D1AD31500B8D27F /* MProgressTimer.cpp in Sources */,
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
-				9C53FC9B1C33DB6800265657 /* TwistNode.cpp in Sources */,
 				9C53FC931C33DB6800265657 /* PolygonSprite.cpp in Sources */,
 				9C53FC9D1C33DB6800265657 /* UINumberPicker.cpp in Sources */,
-				9C53FCAB1C33F9C400265657 /* GLVBOTest.cpp in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
-				9C53FCB31C34226500265657 /* ShaderTest.cpp in Sources */,
+				9CE29A151D1ACC7A00B8D27F /* ShaderTest.cpp in Sources */,
 				509D4ABC17EBB2AB00697056 /* AppController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

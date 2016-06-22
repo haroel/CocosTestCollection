@@ -9,12 +9,13 @@
 #include "MainScene.hpp"
 #include "mc/UINumberPicker.h"
 
-#include "mc/TwistNode.h"
+#include "mc/gl/TwistNode.h"
 #include "mc/PolygonSprite.h"
 #include "mc/SwipItemView.hpp"
-#include "mc/GLVBOTest.hpp"
+#include "mc/gl/GLVBOTest.hpp"
 #include "mc/CppTestLayer.hpp"
-#include "mc/ShaderTest.hpp"
+#include "mc/gl/ShaderTest.hpp"
+#include "mc/gl/MProgressTimer.hpp"
 
 
 using namespace cocos2d;
@@ -25,7 +26,13 @@ void MainScene::onEnter()
 {
     Scene::onEnter();
     
-    std::vector<std::string> list = {"picker","TwistNode","侧滑按钮","PolygonSprite","GLTest","c++测试","Shader测试"};
+    std::vector<std::string> list = {"picker",
+                                    "TwistNode",
+                                    "侧滑按钮",
+                                    "PolygonSprite",
+                                    "GLTest",
+                                    "c++测试",
+                                    "MProgressTimer测试"};
     
     for (auto ss : list)
     {
@@ -93,6 +100,7 @@ void MainScene::menuClickHandler(Ref* pSender)
         {
             auto pNode = TwistNode::create();
             pNode->setPosition(winsize.width/2, winsize.height/2);
+            pNode->setTexture("res/twist/a1.jpg", "res/twist/a2.jpg", 1.5);
             container->addChild(pNode);
             break;
         }
@@ -126,9 +134,10 @@ void MainScene::menuClickHandler(Ref* pSender)
         }
         case 6:
         {
-            auto ppp = ShaderTest::create();
-            ppp->setPosition(winsize.width/2, winsize.height/2);
-            container->addChild(ppp);
+            auto pNode = MProgressTimer::create();
+            pNode->setPosition(winsize.width/2, winsize.height/2);
+            pNode->setTexture("res/HelloWorld.png", 2.5);
+            container->addChild(pNode);
             break;
         }
         default:
