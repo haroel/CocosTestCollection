@@ -56,6 +56,11 @@ void main()
     
     // u_start = 0.2, u_progress = 0.88
     // 0.08
+    if (u_progress > 0.99)
+    {
+        gl_FragColor = v_fragmentColor * texture2D(CC_Texture0,v_texCoord);
+        return;
+    }
     
     vec2 pp;
     pp.x = v_texCoord.x - 0.5;

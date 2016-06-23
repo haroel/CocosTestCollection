@@ -30,7 +30,7 @@ void TwistNode::setTexture(const std::string &path1,const std::string &path2,flo
     
     auto act = new ProgressAction();
     act->initWithDuration(duration);
-    
+    act->autorelease();
     act->callBack = std::bind(&TwistNode::_callHandler, this,std::placeholders::_1);
     this->runAction(act);
 
