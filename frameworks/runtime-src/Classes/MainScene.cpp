@@ -16,6 +16,7 @@
 #include "mc/CppTestLayer.hpp"
 #include "mc/gl/ShaderTest.hpp"
 #include "mc/gl/MProgressTimer.hpp"
+#include "mc/gl/M2DRotation.hpp"
 
 
 using namespace cocos2d;
@@ -32,7 +33,8 @@ void MainScene::onEnter()
                                     "PolygonSprite",
                                     "GLTest",
                                     "c++测试",
-                                    "MProgressTimer测试"};
+                                    "MProgressTimer测试",
+                                    "3d旋转"};
     
     for (auto ss : list)
     {
@@ -66,7 +68,7 @@ void MainScene::onEnter()
     _contentNode = Node::create();
     this->addChild(_contentNode);
     
-    CCLOG( Director::getInstance()->getTextureCache()->getCachedTextureInfo().c_str() );
+    CCLOG( "%s", Director::getInstance()->getTextureCache()->getCachedTextureInfo().c_str() );
     
 //    this->schedule(schedule_selector(MainScene::delayDoHandler), 4.0);
 }
@@ -138,6 +140,23 @@ void MainScene::menuClickHandler(Ref* pSender)
             pNode->setPosition(winsize.width/2, winsize.height/2);
             pNode->setTexture("res/HelloWorld.png", 2.5);
             container->addChild(pNode);
+            break;
+        }
+        case 7:
+        {
+            auto pNode = M2DRotation::create();
+            pNode->setPosition(winsize.width/2, winsize.height/2);
+            pNode->setTexture("res/HelloWorld.png");
+            container->addChild(pNode);
+            
+            
+            auto pNode1 = Sprite::create();
+            pNode1->setPosition(winsize.width/2 + 300, winsize.height/2);
+            pNode1->setTexture("res/HelloWorld.png");
+            container->addChild(pNode1);
+             cocos2d::Vec3 rotation =pNode1->getRotation3D();
+            rotation.x += -30;
+            pNode1->setRotation3D(rotation);
             break;
         }
         default:

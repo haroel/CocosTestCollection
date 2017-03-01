@@ -59,6 +59,8 @@
 		9C53FCB01C33FBD000265657 /* CppTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C53FCAD1C33FBD000265657 /* CppTestLayer.cpp */; };
 		9C6F43431C3816C800751433 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F43411C3816C800751433 /* Util.cpp */; };
 		9C6F43441C3816C800751433 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F43411C3816C800751433 /* Util.cpp */; };
+		9CCDBC881E669E5B007F6F59 /* M2DRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CCDBC861E669E5B007F6F59 /* M2DRotation.cpp */; };
+		9CCDBC891E669E5B007F6F59 /* M2DRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CCDBC861E669E5B007F6F59 /* M2DRotation.cpp */; };
 		9CE29A131D1ACC7A00B8D27F /* GLVBOTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A0D1D1ACC7A00B8D27F /* GLVBOTest.cpp */; };
 		9CE29A141D1ACC7A00B8D27F /* GLVBOTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A0D1D1ACC7A00B8D27F /* GLVBOTest.cpp */; };
 		9CE29A151D1ACC7A00B8D27F /* ShaderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CE29A0F1D1ACC7A00B8D27F /* ShaderTest.cpp */; };
@@ -203,6 +205,8 @@
 		9C53FCAE1C33FBD000265657 /* CppTestLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CppTestLayer.hpp; sourceTree = "<group>"; };
 		9C6F43411C3816C800751433 /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
 		9C6F43421C3816C800751433 /* Util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Util.hpp; sourceTree = "<group>"; };
+		9CCDBC861E669E5B007F6F59 /* M2DRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = M2DRotation.cpp; sourceTree = "<group>"; };
+		9CCDBC871E669E5B007F6F59 /* M2DRotation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = M2DRotation.hpp; sourceTree = "<group>"; };
 		9CE29A081D1ACBAA00B8D27F /* ProgressAction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProgressAction.hpp; sourceTree = "<group>"; };
 		9CE29A0D1D1ACC7A00B8D27F /* GLVBOTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLVBOTest.cpp; sourceTree = "<group>"; };
 		9CE29A0E1D1ACC7A00B8D27F /* GLVBOTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GLVBOTest.hpp; sourceTree = "<group>"; };
@@ -343,18 +347,18 @@
 		9C53FC861C33DB6800265657 /* mc */ = {
 			isa = PBXGroup;
 			children = (
-				9CE29A0C1D1ACC7A00B8D27F /* gl */,
-				9C53FCAD1C33FBD000265657 /* CppTestLayer.cpp */,
 				9C53FC871C33DB6800265657 /* PolygonSprite.cpp */,
 				9C53FC881C33DB6800265657 /* PolygonSprite.h */,
 				9C53FC8B1C33DB6800265657 /* SwipItemView.cpp */,
 				9C53FC8C1C33DB6800265657 /* SwipItemView.hpp */,
 				9C53FC911C33DB6800265657 /* UINumberPicker.cpp */,
 				9C53FC921C33DB6800265657 /* UINumberPicker.h */,
+				9C53FCAD1C33FBD000265657 /* CppTestLayer.cpp */,
 				9C53FCAE1C33FBD000265657 /* CppTestLayer.hpp */,
 				9C6F43411C3816C800751433 /* Util.cpp */,
 				9C6F43421C3816C800751433 /* Util.hpp */,
 				9CE29A081D1ACBAA00B8D27F /* ProgressAction.hpp */,
+				9CE29A0C1D1ACC7A00B8D27F /* gl */,
 			);
 			path = mc;
 			sourceTree = "<group>";
@@ -370,6 +374,8 @@
 				9CE29A121D1ACC7A00B8D27F /* TwistNode.h */,
 				9CE29A191D1AD31500B8D27F /* MProgressTimer.cpp */,
 				9CE29A1A1D1AD31500B8D27F /* MProgressTimer.hpp */,
+				9CCDBC861E669E5B007F6F59 /* M2DRotation.cpp */,
+				9CCDBC871E669E5B007F6F59 /* M2DRotation.hpp */,
 			);
 			path = gl;
 			sourceTree = "<group>";
@@ -634,6 +640,7 @@
 				9C53FCB01C33FBD000265657 /* CppTestLayer.cpp in Sources */,
 				9CE29A181D1ACC7A00B8D27F /* TwistNode.cpp in Sources */,
 				509D4A8117EBB24E00697056 /* AppDelegate.cpp in Sources */,
+				9CCDBC891E669E5B007F6F59 /* M2DRotation.cpp in Sources */,
 				9C53FCA21C33DB7D00265657 /* MainScene.cpp in Sources */,
 				9CE29A1C1D1AD31500B8D27F /* MProgressTimer.cpp in Sources */,
 				9C6F43441C3816C800751433 /* Util.cpp in Sources */,
@@ -655,6 +662,7 @@
 				9C53FCAF1C33FBD000265657 /* CppTestLayer.cpp in Sources */,
 				9C6F43431C3816C800751433 /* Util.cpp in Sources */,
 				9CE29A1B1D1AD31500B8D27F /* MProgressTimer.cpp in Sources */,
+				9CCDBC881E669E5B007F6F59 /* M2DRotation.cpp in Sources */,
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
 				9C53FC931C33DB6800265657 /* PolygonSprite.cpp in Sources */,
 				9C53FC9D1C33DB6800265657 /* UINumberPicker.cpp in Sources */,
